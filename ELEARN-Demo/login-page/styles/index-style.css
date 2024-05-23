@@ -46,7 +46,7 @@
 #small-quote p {
   color: #ffffff;
   margin-top: 23px;
-  font-size: 14px;
+  font-size: 12px;
 }
 
 /* Style for right side */
@@ -174,9 +174,9 @@ header {
 }
 
 #login-btn:hover {
-  background-color: #b6cef8;
+  background-color: #68a6a6;
 }
 
 #login-btn:active {
-  background-color: #84a0d1;
+  background-color: #496773;
 }

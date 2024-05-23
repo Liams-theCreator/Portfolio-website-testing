@@ -45,23 +45,30 @@
               <p>Please enter your informations:</p>
             </div>
             <div id="first-line"></div>
-            <div class="login-form">
-              <div class="login-info">
-                <p>Username</p>
-                <input type="text" name="" class="inputs" />
-                <p>Password</p>
-                <input type="password" name="" class="inputs" />
+            <form action="">
+              <div class="login-form">
+                <div class="login-info">
+                  <p>Username</p>
+                  <input type="text" name="username" class="inputs" required />
+                  <p>Password</p>
+                  <input
+                    type="password"
+                    name="password"
+                    class="inputs"
+                    required
+                  />
+                </div>
+                <div class="login-checkbox">
+                  <label>
+                    <input type="checkbox" class="input" />
+                    <span class="custom-checkbox"></span>
+                  </label>
+                  <p>Remember me</p>
+                </div>
+                <div id="second-line"></div>
+                <button type="submit" id="login-btn">Login</button>
               </div>
-              <div class="login-checkbox">
-                <label>
-                  <input type="checkbox" class="input" />
-                  <span class="custom-checkbox"></span>
-                </label>
-                <p>Remember me</p>
-              </div>
-              <div id="second-line"></div>
-              <button type="button" id="login-btn">Login</button>
-            </div>
+            </form>
           </div>
         </div>
       </div>

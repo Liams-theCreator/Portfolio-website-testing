@@ -8,7 +8,7 @@ body {
 
 /* Width of the scrollbar */
 ::-webkit-scrollbar {
-  width: 12px;
+  width: 14px;
   height: 12px;
 }
 
@@ -31,6 +31,27 @@ body {
 .landing-page p {
   font-size: var(--textsize);
   font-weight: 300;
+}
+
+::selection {
+  background: #ebe2fdbb;
+  color: #000000;
+}
+
+/* WebKit-specific selection pseudo-element */
+::-webkit-selection {
+  background: #ffb7b7;
+  color: #000000;
+}
+
+/* Mozilla-specific selection pseudo-element */
+::-moz-selection {
+  background: #ffb7b7;
+  color: #000000;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 /* Global variables */
