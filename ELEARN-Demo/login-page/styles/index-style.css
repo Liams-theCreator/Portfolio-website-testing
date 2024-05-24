@@ -164,7 +164,8 @@ header {
   font-family: "poppins", sans-serif;
   font-weight: 500;
   font-size: 16px;
-  background-color: #dae1e7;
+  color: #dae1e7;
+  background-color: #384259;
   border: #bfbfbf solid 1px;
   margin-top: 33px;
   width: 489px;
@@ -174,9 +175,9 @@ header {
 }
 
 #login-btn:hover {
-  background-color: #68a6a6;
+  background-color: #7a9bc7;
 }
 
 #login-btn:active {
-  background-color: #496773;
+  background-color: #5b82b4;
 }
