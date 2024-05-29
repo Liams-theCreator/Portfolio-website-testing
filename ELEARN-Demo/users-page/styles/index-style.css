@@ -25,23 +25,6 @@
   --clr8: #c4edde;
 }
 
-::selection {
-  background: #ebe2fdbb;
-  color: #000000;
-}
-
-/* WebKit-specific selection pseudo-element */
-::-webkit-selection {
-  background: #ffb7b7;
-  color: #000000;
-}
-
-/* Mozilla-specific selection pseudo-element */
-::-moz-selection {
-  background: #ffb7b7;
-  color: #000000;
-}
-
 /* Navbar styles */
 
 .navbar {
