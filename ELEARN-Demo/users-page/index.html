@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Custom CSS File -->
     <link rel="stylesheet" href="styles/index-style.css" />
-
     <!-- Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -31,16 +30,16 @@
     <!-- Header Section -->
     <div class="header">
       <div class="add-btn">
-        <button id="show-popup">Add Student</button>
+        <button id="show-popup">Add New User</button>
       </div>
       <div class="filter">
         <div class="students">
           Show
-          <select name="" id="table-size">
+          <select name="table-size" id="table-size">
             <option value="10">10</option>
             <option value="20">20</option>
             <option value="50">50</option>
-            <option value="80">80</option>
+            <option value="100">100</option>
           </select>
           Students
         </div>
@@ -80,7 +79,7 @@
             <td>Abdelhamid-foulla@gmail.com</td>
             <td>Front-end</td>
             <td>
-              <i class="fas fa-pen-to-square"></i>
+              <i class="fas fa-pen-to-square actions-update"></i>
               <i class="fas fa-user-minus"></i>
             </td>
           </tr>
@@ -96,7 +95,7 @@
             <td>Ztonton132s@gmail.com</td>
             <td>Back-end</td>
             <td>
-              <i class="fas fa-pen-to-square"></i>
+              <i class="fas fa-pen-to-square actions-update"></i>
               <i class="fas fa-user-minus"></i>
             </td>
           </tr>
@@ -112,7 +111,7 @@
             <td>lbarfixforlife@gmail.com</td>
             <td>DevOps</td>
             <td>
-              <i class="fas fa-pen-to-square"></i>
+              <i class="fas fa-pen-to-square actions-update"></i>
               <i class="fas fa-user-minus"></i>
             </td>
           </tr>
@@ -128,7 +127,7 @@
             <td>soub7aniyala@gmail.com</td>
             <td>Back-end</td>
             <td>
-              <i class="fas fa-pen-to-square"></i>
+              <i class="fas fa-pen-to-square actions-update"></i>
               <i class="fas fa-user-minus"></i>
             </td>
           </tr>
@@ -144,7 +143,7 @@
             <td>equipemaroc@gmail.com</td>
             <td>Front-end</td>
             <td>
-              <i class="fas fa-pen-to-square"></i>
+              <i class="fas fa-pen-to-square actions-update"></i>
               <i class="fas fa-user-minus"></i>
             </td>
           </tr>
@@ -160,7 +159,7 @@
             <td>hmidacab@gmail.com</td>
             <td>DevOps</td>
             <td>
-              <i class="fas fa-pen-to-square"></i>
+              <i class="fas fa-pen-to-square actions-update"></i>
               <i class="fas fa-user-minus"></i>
             </td>
           </tr>
@@ -204,6 +203,11 @@
                 <label for="password">Password</label>
                 <input type="password" name="password" id="password" required />
               </div>
+              <br />
+              <select name="user-select" id="user-select">
+                <option value="Student">Student</option>
+                <option value="Teacher">Teacher</option>
+              </select>
             </div>
           </div>
 
